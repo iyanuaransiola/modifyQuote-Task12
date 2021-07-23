@@ -1,0 +1,54 @@
+body{
+    font-family: "Glegoo";
+    background-color: rgb(43, 74, 100);
+}
+
+
+.quote-row{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #eee;
+    padding: 20px;
+    min-height: 220px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#quote-box{
+    font-style: italic;
+    text-align: justify;
+}
+
+#author{
+    color: purple;
+    font-size: 40px;
+}
+
+ hr{
+     margin: 5px 0;
+     width: 60%;
+     border: 1px solid #364ba788;
+     justify-content: center;
+     margin-left: 400px;
+ }
+
+#btn{
+    background-color: rgb(43, 74, 100);
+    border: #000;
+    outline: none;
+    color: #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+
+
+
